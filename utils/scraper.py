@@ -58,22 +58,22 @@ def scrape_funko(base_url="https://funkoeurope.com/collections/all/products.json
     combined_df.drop_duplicates(subset=["name"], keep="last", inplace=True)
 
     # Track price changes
+    price_changes = []
     for _, row in new_df.iterrows():
         name, new_price = row["name"], row["price"]
         old_entry = existing_df[existing_df["name"] == name]
         if not old_entry.empty:
             old_price = float(old_entry.iloc[0]["price"])
             if old_price != new_price:
-                print(f"💰 Price change detected for {name}: {old_price} → {new_price}")
-                price_log = pd.concat([
-                    price_log,
-                    pd.DataFrame([{
-                        "name": name,
-                        "old_price": old_price,
-                        "new_price": new_price,
-                        "timestamp": datetime.now().isoformat()
-                    }])
-                ], ignore_index=True)
+                price_changes.append({
+                    "name": name,
+                    "old_price": old_price,
+                    "new_price": new_price,
+                    "timestamp": datetime.now().isoformat()
+                })
+    if price_changes:
+        new_changes_df = pd.DataFrame(price_changes)
+        price_log = pd.concat([price_log, new_changes_df], ignore_index=True)
 
     # Save updated datasets
     combined_df.to_csv(FILE_PATH, index=False)

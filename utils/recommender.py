@@ -7,13 +7,19 @@ Content-based recommender for FunkoPops.
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
+from joblib import dump, load
 import pandas as pd
 import numpy as np
 
 class FunkoPopRecommender:
     def __init__(self, df):
         self.df = df
-        self.df["features"] = df["name"] + " " + df["franchise"]
+        self.df["features"] = (
+                df["name"] + " " +
+                df["franchise"] + " " +
+                df["category"] + " " +
+                df["price"].apply(lambda x: "expensive" if x > 50 else "affordable")
+        )
         self.tfidf = TfidfVectorizer(stop_words="english")
         self.tfidf_matrix = self.tfidf.fit_transform(self.df["features"])
         self.cosine_sim = linear_kernel(self.tfidf_matrix, self.tfidf_matrix)
@@ -30,9 +36,14 @@ class FunkoPopRecommender:
 
     def recommend_by_owned(self, owned_list, top_n=5):
         owned_indices = [self.indices[name] for name in owned_list if name in self.indices]
+        if not owned_indices:
+            return pd.DataFrame()
+
+        # Accumulate scores correctly
         scores = np.zeros(len(self.df))
         for idx in owned_indices:
-            scores = self.cosine_sim[idx]
+            scores += self.cosine_sim[idx]
+
         scores[owned_indices] = 0
         top_indices = scores.argsort()[::-1][:top_n]
         return self.df.iloc[top_indices]
@@ -44,6 +55,13 @@ class FunkoPopRecommender:
             check popularity based on users pop with the same category 
             and recommend it
         """
+
+    def save_model(self, filepath):
+        dump(self, filepath)
+
+    @classmethod
+    def load_model(cls, filepath):
+        return load(filepath)
 
 
 if __name__ == "__main__":

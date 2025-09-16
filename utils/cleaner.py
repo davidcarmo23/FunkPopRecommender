@@ -8,21 +8,36 @@ FILE_PATH = os.path.join(RAW_PATH, "funko.csv")
 PROCESSED_PATH = os.path.join(PROJECT_ROOT, "data", "processed")
 CLEAN_FILE_PATH = os.path.join(PROCESSED_PATH, "funko_clean.csv")
 
-def cleaner():
-    # Ensure folders exist
-    os.makedirs(RAW_PATH, exist_ok=True)
-    os.makedirs(PROCESSED_PATH, exist_ok=True)
+FRANCHISE_MAP = {
+    "Marvel": ["Spider-Man", "Iron Man", "Captain America"],
+    "DC": ["Batman", "Superman", "Wonder Woman"],
+    "Disney": ["Mickey", "Frozen", "Toy Story"],
+    "Dragon Ball": ["Goku", "Vegeta", "Trunks", "Pan", "Bulma", "Goten", "Gohan"]
+}
 
-    # Load raw CSV
-    df = pd.read_csv(FILE_PATH)
-    print(df["price"])
+#extract franchise by mapping(ongoing)
+def extract_franchise(name):
+    name_lower = name.lower()
+    for franchise, keywords in FRANCHISE_MAP.items():
+        if any(keyword.lower() in name_lower for keyword in keywords):
+            return franchise
+    return name.split()[0]  # fallback to your method
 
-    # Add franchise column
-    df["franchise"] = df["name"].apply(lambda x: x.split()[0])
+def cleaner(df):
+    # Remove duplicates
+    df = df.drop_duplicates(subset=['name'])
 
-    # Save cleaned CSV
-    df.to_csv(CLEAN_FILE_PATH, index=False)
-    print(f"Cleaned data saved to {CLEAN_FILE_PATH}")
+    # Clean price data and normalize text
+    df['price'] = pd.to_numeric(df['price'], errors='coerce')
+    df = df.dropna(subset=['price'])
+    df['name'] = df['name'].str.strip().str.title()
+
+    df['franchise'] = df['name'].apply(extract_franchise)
+
+    # Validate required fields
+    df = df.dropna(subset=['name', 'image', 'category'])
+
+    return df
 
 if __name__ == "__main__":
     cleaner()
