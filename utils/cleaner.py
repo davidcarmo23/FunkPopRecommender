@@ -28,14 +28,18 @@ def load_franchise_map():
 
 
 def extract_franchise(name):
-    franchise_map = load_franchise_map()
-    if not franchise_map:
-        return name.split()[0] if name.split() else "Unknown"
+    try:
+        with open(FRANCHISE_FILE_PATH, "r") as f:
+            franchise_map = json.load(f)
 
-    name_lower = name.lower()
-    for franchise, keywords in franchise_map.items():
-        if any(keyword.lower() in name_lower for keyword in keywords):
-            return franchise
+        name_lower = name.lower()
+        for franchise, data in franchise_map.items():
+            characters = data.get("characters", [])
+            if any(keyword.lower() in name_lower for keyword in characters):
+                return franchise
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass
+
     return name.split()[0] if name.split() else "Unknown"
 
 def validate_image_exists(image):

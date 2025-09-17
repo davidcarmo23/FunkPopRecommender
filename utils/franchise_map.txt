@@ -1,276 +1,340 @@
 {
-    "Marvel": [
-        "Spider-Man", "Iron Man", "Captain America", "Thor", "Hulk", "Black Widow",
-        "Hawkeye", "Ant-Man", "Doctor Strange", "Black Panther", "Captain Marvel",
-        "Scarlet Witch", "Vision", "Falcon", "Winter Soldier", "War Machine",
-        "Spider-Gwen", "Miles Morales", "Venom", "Carnage", "Deadpool", "Wolverine",
-        "X-Men", "Storm", "Cyclops", "Jean Grey", "Professor X", "Magneto",
-        "Mystique", "Beast", "Nightcrawler", "Rogue", "Gambit", "Iceman",
-        "Fantastic Four", "Mr. Fantastic", "Invisible Woman", "Human Torch", "Thing",
-        "Silver Surfer", "Galactus", "Thanos", "Loki", "Groot", "Star-Lord",
-        "Gamora", "Drax", "Rocket", "Nebula", "Mantis", "Yondu", "Ronan",
-        "Daredevil", "Punisher", "Jessica Jones", "Luke Cage", "Iron Fist",
-        "Ghost Rider", "Blade", "Moon Knight", "She-Hulk", "Ms. Marvel",
-        "Squirrel Girl", "Spider-Woman", "Kate Bishop", "America Chavez"
-    ],
-    "DC": [
-        "Batman", "Superman", "Wonder Woman", "The Flash", "Green Lantern",
-        "Aquaman", "Cyborg", "Green Arrow", "Supergirl", "Batgirl", "Robin",
-        "Nightwing", "Red Hood", "Batwoman", "Catwoman", "Harley Quinn",
-        "Joker", "Two-Face", "Penguin", "Riddler", "Poison Ivy", "Mr. Freeze",
-        "Bane", "Scarecrow", "Ra's al Ghul", "Deathstroke", "Lex Luthor",
-        "Brainiac", "Doomsday", "Darkseid", "Reverse-Flash", "Captain Cold",
-        "Sinestro", "Black Manta", "Cheetah", "Ares", "Steppenwolf",
-        "Shazam", "Black Adam", "Hawkman", "Hawkgirl", "Martian Manhunter",
-        "Booster Gold", "Blue Beetle", "Static Shock", "Teen Titans",
-        "Starfire", "Raven", "Beast Boy", "Cyborg", "Constantine", "Zatanna"
-    ],
-    "Disney": [
-        "Mickey Mouse", "Minnie Mouse", "Donald Duck", "Goofy", "Pluto",
-        "Chip", "Dale", "Scrooge McDuck", "Elsa", "Anna", "Olaf", "Kristoff",
-        "Sven", "Hans", "Moana", "Maui", "Rapunzel", "Flynn Rider", "Pascal",
-        "Maximus", "Tiana", "Prince Naveen", "Louis", "Ray", "Dr. Facilier",
-        "Merida", "Angus", "Belle", "Beast", "Lumiere", "Cogsworth", "Mrs. Potts",
-        "Chip", "Gaston", "Ariel", "Eric", "Sebastian", "Flounder", "Ursula",
-        "Jasmine", "Aladdin", "Genie", "Jafar", "Abu", "Rajah", "Iago",
-        "Pocahontas", "John Smith", "Meeko", "Flit", "Governor Ratcliffe",
-        "Mulan", "Li Shang", "Mushu", "Cri-Kee", "Shan Yu", "Cinderella",
-        "Prince Charming", "Fairy Godmother", "Lady Tremaine", "Drizella",
-        "Anastasia", "Snow White", "Seven Dwarfs", "Evil Queen", "Huntsman",
-        "Sleeping Beauty", "Aurora", "Prince Philip", "Maleficent", "Flora",
-        "Fauna", "Merryweather", "King Stefan", "Bambi", "Thumper", "Flower",
-        "Faline", "Great Prince", "Dumbo", "Timothy", "Pinocchio", "Jiminy Cricket",
-        "Geppetto", "Blue Fairy", "Honest John", "Gideon", "Stromboli", "Monstro"
-    ],
-    "Pixar": [
-        "Woody", "Buzz Lightyear", "Jessie", "Rex", "Hamm", "Slinky Dog",
-        "Mr. Potato Head", "Mrs. Potato Head", "Bullseye", "Lots-o'-Huggin' Bear",
-        "Ken", "Barbie", "Big Baby", "Chunk", "Sparks", "Twitch", "Forky",
-        "Duke Caboom", "Gabby Gabby", "Benson", "Bo Peep", "Giggle McDimples",
-        "Sulley", "Mike", "Boo", "Randall", "Roz", "Celia", "Yeti",
-        "Mr. Waternoose", "Fungus", "CDA", "Nemo", "Marlin", "Dory", "Bruce",
-        "Anchor", "Chum", "Gill", "Bloat", "Peach", "Gurgle", "Deb", "Jacques",
-        "Nigel", "Crush", "Squirt", "Mr. Ray", "Bob Parr", "Helen Parr",
-        "Violet", "Dash", "Jack-Jack", "Frozone", "Syndrome", "Mirage",
-        "Edna Mode", "Screenslaver", "Evelyn", "Winston", "Lightning McQueen",
-        "Mater", "Sally", "Doc Hudson", "Ramone", "Flo", "Luigi", "Guido",
-        "Sheriff", "Fillmore", "Sarge", "Jackson Storm", "Cruz Ramirez",
-        "Natalie Certain", "Sterling", "Smokey", "WALL-E", "EVE", "AUTO",
-        "Captain McCrea", "MO", "Burn-E", "Carl Fredricksen", "Russell", "Dug",
-        "Kevin", "Alpha", "Beta", "Gamma", "Charles Muntz", "Ellie", "Merida",
-        "Queen Elinor", "King Fergus", "Harris", "Hubert", "Hamish", "Mor'du",
-        "Witch", "Joy", "Sadness", "Anger", "Fear", "Disgust", "Bing Bong",
-        "Rainbow Unicorn", "Anxiety", "Embarrassment", "Envy", "Ennui", "Nostalgia"
-    ],
-    "Star Wars": [
-        "Luke Skywalker", "Princess Leia", "Han Solo", "Chewbacca", "Darth Vader",
-        "Obi-Wan Kenobi", "Yoda", "C-3PO", "R2-D2", "Emperor Palpatine",
-        "Darth Maul", "Padme Amidala", "Anakin Skywalker", "Mace Windu",
-        "Qui-Gon Jinn", "Count Dooku", "General Grievous", "Jango Fett",
-        "Boba Fett", "Clone Trooper", "Stormtrooper", "Imperial Guard",
-        "Jabba the Hutt", "Lando Calrissian", "Ewok", "Wicket", "Admiral Ackbar",
-        "Mon Mothma", "Grand Moff Tarkin", "Rey", "Finn", "Poe Dameron",
-        "Kylo Ren", "BB-8", "Captain Phasma", "Supreme Leader Snoke", "Rose Tico",
-        "Vice Admiral Holdo", "DJ", "Emperor Palpatine", "The Mandalorian",
-        "Din Djarin", "Grogu", "Baby Yoda", "Cara Dune", "Greef Karga",
-        "IG-11", "Kuiil", "Ahsoka Tano", "Bo-Katan", "Moff Gideon", "Fennec Shand",
-        "Cad Bane", "Tusken Raider", "Jawa", "Sarlacc", "Rancor", "Wampa",
-        "Tauntaun", "Dewback", "Banthas", "AT-AT", "AT-ST", "TIE Fighter",
-        "X-Wing", "Millennium Falcon", "Death Star", "Rebel Alliance", "Empire",
-        "First Order", "Resistance", "Jedi", "Sith", "Force Ghost"
-    ],
-    "Dragon Ball": [
-        "Goku", "Vegeta", "Gohan", "Goten", "Trunks", "Piccolo", "Krillin",
-        "Master Roshi", "Yamcha", "Tien", "Chiaotzu", "Bulma", "Chi-Chi",
-        "Android 17", "Android 18", "Cell", "Frieza", "Majin Buu", "Beerus",
-        "Whis", "Jiren", "Hit", "Caulifla", "Kale", "Cabba", "Universe 6",
-        "Broly", "Gogeta", "Vegito", "Bardock", "King Vegeta", "Raditz",
-        "Nappa", "Ginyu Force", "Captain Ginyu", "Recoome", "Burter", "Jeice",
-        "Guldo", "Zarbon", "Dodoria", "Cui", "Appule", "Raspberry", "Pan",
-        "Uub", "Mr. Satan", "Videl", "Android 16", "Dr. Gero", "Babidi",
-        "Dabura", "Garlic Jr.", "Cooler", "Meta-Cooler", "King Cold",
-        "Mecha Frieza", "Golden Frieza", "Super Saiyan Blue", "Ultra Instinct"
-    ],
-
-    "Naruto": [
-        "Naruto Uzumaki", "Sasuke Uchiha", "Sakura Haruno", "Kakashi Hatake",
-        "Rock Lee", "Neji Hyuga", "Tenten", "Might Guy", "Hinata Hyuga",
-        "Kiba Inuzuka", "Akamaru", "Shino Aburame", "Ino Yamanaka",
-        "Shikamaru Nara", "Choji Akimichi", "Asuma Sarutobi", "Kurenai Yuhi",
-        "Iruka Umino", "Third Hokage", "Fourth Hokage", "Fifth Hokage",
-        "Sixth Hokage", "Seventh Hokage", "Itachi Uchiha", "Kisame Hoshigaki",
-        "Pain", "Konan", "Tobi", "Madara Uchiha", "Hashirama Senju",
-        "Tobirama Senju", "Orochimaru", "Jiraiya", "Tsunade", "Kabuto Yakushi",
-        "Gaara", "Kankuro", "Temari", "Raikage", "Killer Bee", "Eight-Tails",
-        "Nine-Tails", "Kurama", "Boruto Uzumaki", "Himawari Uzumaki"
-    ],
-
-    "My Hero Academia": [
-        "Izuku Midoriya", "Deku", "All Might", "Katsuki Bakugo", "Ochaco Uraraka",
-        "Tenya Iida", "Shoto Todoroki", "Tsuyu Asui", "Momo Yaoyorozu",
-        "Kyoka Jiro", "Denki Kaminari", "Eijiro Kirishima", "Fumikage Tokoyami",
-        "Mashirao Ojiro", "Toru Hagakure", "Mina Ashido", "Yuga Aoyama",
-        "Koji Koda", "Rikido Sato", "Mezo Shoji", "Minoru Mineta", "Eraser Head",
-        "Shota Aizawa", "Present Mic", "Midnight", "Endeavor", "Hawks",
-        "Best Jeanist", "Edgeshot", "Mirko", "Fat Gum", "Tamaki Amajiki",
-        "Mirio Togata", "Nejire Hado", "All For One", "Tomura Shigaraki",
-        "Dabi", "Toga", "Twice", "Mr. Compress", "Spinner", "Muscular",
-        "Overhaul", "Stain", "Nomu", "High-End Nomu", "League of Villains"
-    ],
-
-    "One Piece": [
-        "Monkey D. Luffy", "Roronoa Zoro", "Nami", "Usopp", "Sanji",
-        "Tony Tony Chopper", "Nico Robin", "Franky", "Brook", "Jinbe",
-        "Portgas D. Ace", "Sabo", "Monkey D. Garp", "Monkey D. Dragon",
-        "Shanks", "Buggy", "Mihawk", "Crocodile", "Doflamingo", "Katakuri",
-        "Big Mom", "Kaido", "Whitebeard", "Blackbeard", "Admiral Akainu",
-        "Admiral Kizaru", "Admiral Aokiji", "Fleet Admiral Sengoku",
-        "Vice Admiral Smoker", "Captain Tashigi", "Boa Hancock", "Trafalgar Law",
-        "Eustass Kid", "Killer", "X Drake", "Basil Hawkins", "Scratchmen Apoo",
-        "Jewelry Bonney", "Capone Bege", "Urouge", "Going Merry", "Thousand Sunny"
-    ],
-
-    "Attack on Titan": [
-        "Eren Yeager", "Mikasa Ackerman", "Armin Arlert", "Levi Ackerman",
-        "Erwin Smith", "Hange Zoe", "Sasha Blouse", "Connie Springer",
-        "Jean Kirstein", "Marco Bott", "Historia Reiss", "Ymir", "Reiner Braun",
-        "Bertolt Hoover", "Annie Leonhart", "Zeke Yeager", "Grisha Yeager",
-        "Carla Yeager", "Keith Shadis", "Dot Pixis", "Rico Brzenska",
-        "Ian Dietrich", "Mitabi Jarnach", "Colossal Titan", "Armored Titan",
-        "Female Titan", "Beast Titan", "Cart Titan", "Jaw Titan", "War Hammer Titan",
-        "Attack Titan", "Founding Titan"
-    ],
-    "Pokemon": [
-        "Pikachu", "Charizard", "Blastoise", "Venusaur", "Mew", "Mewtwo",
-        "Lucario", "Greninja", "Gardevoir", "Garchomp", "Dialga", "Palkia",
-        "Giratina", "Arceus", "Rayquaza", "Groudon", "Kyogre", "Ho-Oh",
-        "Lugia", "Celebi", "Jirachi", "Deoxys", "Darkrai", "Shaymin",
-        "Victini", "Reshiram", "Zekrom", "Kyurem", "Genesect", "Diancie",
-        "Volcanion", "Magearna", "Marshadow", "Zeraora", "Meltan", "Melmetal",
-        "Zacian", "Zamazenta", "Eternatus", "Zarude", "Regieleki", "Regidrago",
-        "Glastrier", "Spectrier", "Calyrex", "Enamorus", "Koraidon", "Miraidon"
-    ],
-
-    "Five Nights at Freddy's": [
-        "Freddy Fazbear", "Bonnie", "Chica", "Foxy", "Golden Freddy",
-        "Springtrap", "Circus Baby", "Ballora", "Funtime Freddy", "Funtime Foxy",
-        "Ennard", "Molten Freddy", "Scrap Baby", "Lefty", "The Puppet",
-        "Mangle", "Toy Freddy", "Toy Bonnie", "Toy Chica", "Balloon Boy",
-        "JJ", "Withered Freddy", "Withered Bonnie", "Withered Chica",
-        "Withered Foxy", "Shadow Freddy", "Shadow Bonnie", "Phantom Freddy",
-        "Phantom Chica", "Phantom Foxy", "Phantom Balloon Boy", "Phantom Puppet",
-        "Phantom Mangle", "Nightmare Freddy", "Nightmare Bonnie", "Nightmare Chica",
-        "Nightmare Foxy", "Nightmare Fredbear", "Nightmare", "Plushtrap",
-        "Bidybab", "Minireena", "Bon-Bon", "Bonnet", "Lolbit", "Yenndo",
-        "Electrobab", "HandUnit", "Glitchtrap", "Vanny", "Glamrock Freddy",
-        "Glamrock Chica", "Montgomery Gator", "Roxanne Wolf", "DJ Music Man",
-        "Sundrop", "Moondrop", "Burntrap", "Blob", "Gregory", "Vanessa"
-    ],
-
-    "Sonic the Hedgehog": [
-        "Sonic", "Tails", "Knuckles", "Amy Rose", "Shadow", "Rouge", "Silver",
-        "Blaze", "Cream", "Cheese", "Vector", "Espio", "Charmy", "Big", "Omega",
-        "Dr. Eggman", "Metal Sonic", "Chaos", "Tikal", "Super Sonic", "Hyper Sonic"
-    ],
-    "Horror": [
-        "Michael Myers", "Jason Voorhees", "Freddy Krueger", "Leatherface",
-        "Ghostface", "Chucky", "Tiffany", "Bride of Chucky", "Pennywise",
-        "Pinhead", "Hellraiser", "Candyman", "The Nun", "Valak", "Annabelle",
-        "The Conjuring", "Insidious", "Saw", "Jigsaw", "Billy", "Carrie",
-        "Jack Torrance", "The Shining", "Regan", "The Exorcist", "Alien",
-        "Xenomorph", "Predator", "Vampire", "Werewolf", "Zombie", "Walking Dead",
-        "Rick Grimes", "Daryl Dixon", "Negan", "Michonne", "Carl Grimes",
-        "Glenn Rhee", "Maggie Greene", "Carol Peletier", "Eugene Porter"
-    ],
-    "Stranger Things": [
-        "Eleven", "Mike Wheeler", "Dustin Henderson", "Lucas Sinclair",
-        "Will Byers", "Max Mayfield", "Steve Harrington", "Nancy Wheeler",
-        "Jonathan Byers", "Joyce Byers", "Jim Hopper", "Robin Buckley",
-        "Eddie Munson", "Argyle", "Murray Bauman", "Erica Sinclair",
-        "Demogorgon", "Mind Flayer", "Demodogs", "Vecna", "Henry Creel",
-        "One", "Dr. Brenner", "Dr. Owens", "Billy Hargrove", "Bob Newby"
-    ],
-
-    "The Office": [
-        "Michael Scott", "Jim Halpert", "Pam Beesly", "Dwight Schrute",
-        "Stanley Hudson", "Kevin Malone", "Meredith Palmer", "Angela Martin",
-        "Oscar Martinez", "Phyllis Vance", "Toby Flenderson", "Creed Bratton",
-        "Kelly Kapoor", "Ryan Howard", "Andy Bernard", "Erin Hannon",
-        "Gabe Lewis", "Robert California", "Todd Packer", "Jan Levinson"
-    ],
-
-    "Friends": [
-        "Ross Geller", "Rachel Green", "Monica Geller", "Chandler Bing",
-        "Joey Tribbiani", "Phoebe Buffay", "Gunther", "Janice", "Mike Hannigan",
-        "Emily Waltham", "Carol Willick", "Susan Bunch", "Ben Geller",
-        "Emma Geller-Green", "Ursula Buffay", "Frank Buffay Jr.", "Erica Bing",
-        "Jack Bing", "Richard Burke", "David", "Tag Jones", "Joshua Burgin"
-    ],
-    "Harry Potter": [
-        "Harry Potter", "Hermione Granger", "Ron Weasley", "Albus Dumbledore",
-        "Severus Snape", "Rubeus Hagrid", "Lord Voldemort", "Tom Riddle",
-        "Draco Malfoy", "Neville Longbottom", "Luna Lovegood", "Ginny Weasley",
-        "Sirius Black", "Remus Lupin", "Minerva McGonagall", "Dolores Umbridge",
-        "Bellatrix Lestrange", "Lucius Malfoy", "Narcissa Malfoy", "Dobby",
-        "Kreacher", "Hedwig", "Buckbeak", "Fawkes", "Nagini", "Basilisk",
-        "Dementor", "Boggart", "Hippogriff", "Thestral", "Hungarian Horntail",
-        "Newt Scamander", "Tina Goldstein", "Jacob Kowalski", "Queenie Goldstein",
-        "Credence Barebone", "Gellert Grindelwald", "Albus Dumbledore",
-        "Theseus Scamander", "Leta Lestrange", "Yusuf Kama", "Nagini"
-    ],
-
-    "Lord of the Rings": [
-        "Frodo Baggins", "Samwise Gamgee", "Meriadoc Brandybuck", "Peregrin Took",
-        "Gandalf", "Aragorn", "Legolas", "Gimli", "Boromir", "Faramir",
-        "Sauron", "Saruman", "Gollum", "Smeagol", "Arwen", "Elrond", "Galadriel",
-        "Bilbo Baggins", "Thorin Oakenshield", "Balin", "Dwalin", "Fili", "Kili",
-        "Oin", "Gloin", "Dori", "Nori", "Ori", "Bifur", "Bofur", "Bombur",
-        "Smaug", "Bard", "Thranduil", "Azog", "Bolg", "Radagast", "Tauriel",
-        "Nazgul", "Ringwraith", "Witch-King", "Mouth of Sauron", "Gothmog",
-        "Lurtz", "Uruk-hai", "Orc", "Goblin", "Troll", "Cave Troll", "Balrog"
-    ],
-
-    "Jurassic Park": [
-        "T-Rex", "Velociraptor", "Triceratops", "Brachiosaurus", "Dilophosaurus",
-        "Spinosaurus", "Carnotaurus", "Allosaurus", "Stegosaurus", "Parasaurolophus",
-        "Gallimimus", "Compsognathus", "Pteranodon", "Mosasaurus", "Indominus Rex",
-        "Indoraptor", "Blue", "Charlie", "Delta", "Echo", "Rexy", "Big One",
-        "Alan Grant", "Ellie Sattler", "Ian Malcolm", "John Hammond", "Robert Muldoon",
-        "Gennaro", "Tim Murphy", "Lex Murphy", "Dennis Nedry", "Ray Arnold",
-        "Owen Grady", "Claire Dearing", "Maisie Lockwood", "Franklin Webb"
-    ],
-    "Music": [
-        "Elvis Presley", "Michael Jackson", "Madonna", "Prince", "David Bowie",
-        "Freddie Mercury", "Queen", "The Beatles", "John Lennon", "Paul McCartney",
-        "George Harrison", "Ringo Starr", "Kiss", "AC/DC", "Metallica",
-        "Iron Maiden", "Black Sabbath", "Ozzy Osbourne", "Guns N' Roses",
-        "Nirvana", "Kurt Cobain", "Pearl Jam", "Soundgarden", "Alice in Chains",
-        "Red Hot Chili Peppers", "Green Day", "Blink-182", "The Ramones",
-        "Sex Pistols", "The Clash", "U2", "Radiohead", "Coldplay", "Muse",
-        "Foo Fighters", "Linkin Park", "My Chemical Romance", "Fall Out Boy",
-        "Panic! At The Disco", "Twenty One Pilots", "Imagine Dragons",
-        "Maroon 5", "OneRepublic", "The Killers", "Arctic Monkeys", "Oasis",
-        "Blur", "Gorillaz", "Daft Punk", "Deadmau5", "Skrillex", "Avicii"
-    ],
-    "NBA": [
-        "Michael Jordan", "LeBron James", "Kobe Bryant", "Magic Johnson",
-        "Larry Bird", "Kareem Abdul-Jabbar", "Wilt Chamberlain", "Bill Russell",
-        "Shaquille O'Neal", "Tim Duncan", "Dirk Nowitzki", "Kevin Durant",
-        "Stephen Curry", "Russell Westbrook", "James Harden", "Kawhi Leonard",
-        "Anthony Davis", "Giannis Antetokounmpo", "Luka Doncic", "Zion Williamson"
-    ],
-
-    "NFL": [
-        "Tom Brady", "Peyton Manning", "Aaron Rodgers", "Drew Brees", "Brett Favre",
-        "Joe Montana", "Johnny Unitas", "Dan Marino", "John Elway", "Ben Roethlisberger"
-    ],
-    "Ad Icons": [
-        "Ronald McDonald", "Pillsbury Doughboy", "Cap'n Crunch", "Tony the Tiger",
-        "Chester Cheetah", "Toucan Sam", "Lucky", "Trix Rabbit", "Energizer Bunny",
-        "Mr. Peanut", "Kool-Aid Man", "Count Chocula", "Franken Berry", "Boo Berry"
-    ],
-    "Sanrio": [
-        "Hello Kitty", "My Melody", "Kuromi", "Cinnamoroll", "Pompompurin",
-        "Badtz-Maru", "Keroppi", "Tuxedosam", "Little Twin Stars", "Rururugakuen"
-    ]
+    "Marvel": {
+        "popularity": 1.0,
+        "characters": [
+            "Spider-Man", "Iron Man", "Captain America", "Thor", "Hulk", "Black Widow",
+            "Hawkeye", "Ant-Man", "Doctor Strange", "Black Panther", "Captain Marvel",
+            "Scarlet Witch", "Vision", "Falcon", "Winter Soldier", "War Machine",
+            "Spider-Gwen", "Miles Morales", "Venom", "Carnage", "Deadpool", "Wolverine",
+            "X-Men", "Storm", "Cyclops", "Jean Grey", "Professor X", "Magneto",
+            "Mystique", "Beast", "Nightcrawler", "Rogue", "Gambit", "Iceman",
+            "Fantastic Four", "Mr. Fantastic", "Invisible Woman", "Human Torch", "Thing",
+            "Silver Surfer", "Galactus", "Thanos", "Loki", "Groot", "Star-Lord",
+            "Gamora", "Drax", "Rocket", "Nebula", "Mantis", "Yondu", "Ronan",
+            "Daredevil", "Punisher", "Jessica Jones", "Luke Cage", "Iron Fist",
+            "Ghost Rider", "Blade", "Moon Knight", "She-Hulk", "Ms. Marvel",
+            "Squirrel Girl", "Spider-Woman", "Kate Bishop", "America Chavez"
+        ]
+    },
+    "DC": {
+        "popularity": 1.0,
+        "characters": [
+            "Batman", "Superman", "Wonder Woman", "The Flash", "Green Lantern",
+            "Aquaman", "Cyborg", "Green Arrow", "Supergirl", "Batgirl", "Robin",
+            "Nightwing", "Red Hood", "Batwoman", "Catwoman", "Harley Quinn",
+            "Joker", "Two-Face", "Penguin", "Riddler", "Poison Ivy", "Mr. Freeze",
+            "Bane", "Scarecrow", "Ra's al Ghul", "Deathstroke", "Lex Luthor",
+            "Brainiac", "Doomsday", "Darkseid", "Reverse-Flash", "Captain Cold",
+            "Sinestro", "Black Manta", "Cheetah", "Ares", "Steppenwolf",
+            "Shazam", "Black Adam", "Hawkman", "Hawkgirl", "Martian Manhunter",
+            "Booster Gold", "Blue Beetle", "Static Shock", "Teen Titans",
+            "Starfire", "Raven", "Beast Boy", "Cyborg", "Constantine", "Zatanna"
+        ]
+    },
+    "Disney": {
+        "popularity": 1.0,
+        "characters": [
+            "Mickey Mouse", "Minnie Mouse", "Donald Duck", "Goofy", "Pluto",
+            "Chip", "Dale", "Scrooge McDuck", "Elsa", "Anna", "Olaf", "Kristoff",
+            "Sven", "Hans", "Moana", "Maui", "Rapunzel", "Flynn Rider", "Pascal",
+            "Maximus", "Tiana", "Prince Naveen", "Louis", "Ray", "Dr. Facilier",
+            "Merida", "Angus", "Belle", "Beast", "Lumiere", "Cogsworth", "Mrs. Potts",
+            "Chip", "Gaston", "Ariel", "Eric", "Sebastian", "Flounder", "Ursula",
+            "Jasmine", "Aladdin", "Genie", "Jafar", "Abu", "Rajah", "Iago",
+            "Pocahontas", "John Smith", "Meeko", "Flit", "Governor Ratcliffe",
+            "Mulan", "Li Shang", "Mushu", "Cri-Kee", "Shan Yu", "Cinderella",
+            "Prince Charming", "Fairy Godmother", "Lady Tremaine", "Drizella",
+            "Anastasia", "Snow White", "Seven Dwarfs", "Evil Queen", "Huntsman",
+            "Sleeping Beauty", "Aurora", "Prince Philip", "Maleficent", "Flora",
+            "Fauna", "Merryweather", "King Stefan", "Bambi", "Thumper", "Flower",
+            "Faline", "Great Prince", "Dumbo", "Timothy", "Pinocchio", "Jiminy Cricket",
+            "Geppetto", "Blue Fairy", "Honest John", "Gideon", "Stromboli", "Monstro"
+        ]
+    },
+    "Pixar": {
+        "popularity": 0.9,
+        "characters": [
+            "Woody", "Buzz Lightyear", "Jessie", "Rex", "Hamm", "Slinky Dog",
+            "Mr. Potato Head", "Mrs. Potato Head", "Bullseye", "Lots-o'-Huggin' Bear",
+            "Ken", "Barbie", "Big Baby", "Chunk", "Sparks", "Twitch", "Forky",
+            "Duke Caboom", "Gabby Gabby", "Benson", "Bo Peep", "Giggle McDimples",
+            "Sulley", "Mike", "Boo", "Randall", "Roz", "Celia", "Yeti",
+            "Mr. Waternoose", "Fungus", "CDA", "Nemo", "Marlin", "Dory", "Bruce",
+            "Anchor", "Chum", "Gill", "Bloat", "Peach", "Gurgle", "Deb", "Jacques",
+            "Nigel", "Crush", "Squirt", "Mr. Ray", "Bob Parr", "Helen Parr",
+            "Violet", "Dash", "Jack-Jack", "Frozone", "Syndrome", "Mirage",
+            "Edna Mode", "Screenslaver", "Evelyn", "Winston", "Lightning McQueen",
+            "Mater", "Sally", "Doc Hudson", "Ramone", "Flo", "Luigi", "Guido",
+            "Sheriff", "Fillmore", "Sarge", "Jackson Storm", "Cruz Ramirez",
+            "Natalie Certain", "Sterling", "Smokey", "WALL-E", "EVE", "AUTO",
+            "Captain McCrea", "MO", "Burn-E", "Carl Fredricksen", "Russell", "Dug",
+            "Kevin", "Alpha", "Beta", "Gamma", "Charles Muntz", "Ellie", "Merida",
+            "Queen Elinor", "King Fergus", "Harris", "Hubert", "Hamish", "Mor'du",
+            "Witch", "Joy", "Sadness", "Anger", "Fear", "Disgust", "Bing Bong",
+            "Rainbow Unicorn", "Anxiety", "Embarrassment", "Envy", "Ennui", "Nostalgia"
+        ]
+    },
+    "Star Wars": {
+        "popularity": 1.0,
+        "characters": [
+            "Luke Skywalker", "Princess Leia", "Han Solo", "Chewbacca", "Darth Vader",
+            "Obi-Wan Kenobi", "Yoda", "C-3PO", "R2-D2", "Emperor Palpatine",
+            "Darth Maul", "Padme Amidala", "Anakin Skywalker", "Mace Windu",
+            "Qui-Gon Jinn", "Count Dooku", "General Grievous", "Jango Fett",
+            "Boba Fett", "Clone Trooper", "Stormtrooper", "Imperial Guard",
+            "Jabba the Hutt", "Lando Calrissian", "Ewok", "Wicket", "Admiral Ackbar",
+            "Mon Mothma", "Grand Moff Tarkin", "Rey", "Finn", "Poe Dameron",
+            "Kylo Ren", "BB-8", "Captain Phasma", "Supreme Leader Snoke", "Rose Tico",
+            "Vice Admiral Holdo", "DJ", "Emperor Palpatine", "The Mandalorian",
+            "Din Djarin", "Grogu", "Baby Yoda", "Cara Dune", "Greef Karga",
+            "IG-11", "Kuiil", "Ahsoka Tano", "Bo-Katan", "Moff Gideon", "Fennec Shand",
+            "Cad Bane", "Tusken Raider", "Jawa", "Sarlacc", "Rancor", "Wampa",
+            "Tauntaun", "Dewback", "Banthas", "AT-AT", "AT-ST", "TIE Fighter",
+            "X-Wing", "Millennium Falcon", "Death Star", "Rebel Alliance", "Empire",
+            "First Order", "Resistance", "Jedi", "Sith", "Force Ghost"
+        ]
+    },
+    "Dragon Ball": {
+        "popularity": 0.8,
+        "characters": [
+            "Goku", "Vegeta", "Gohan", "Goten", "Trunks", "Piccolo", "Krillin",
+            "Master Roshi", "Yamcha", "Tien", "Chiaotzu", "Bulma", "Chi-Chi",
+            "Android 17", "Android 18", "Cell", "Frieza", "Majin Buu", "Beerus",
+            "Whis", "Jiren", "Hit", "Caulifla", "Kale", "Cabba", "Universe 6",
+            "Broly", "Gogeta", "Vegito", "Bardock", "King Vegeta", "Raditz",
+            "Nappa", "Ginyu Force", "Captain Ginyu", "Recoome", "Burter", "Jeice",
+            "Guldo", "Zarbon", "Dodoria", "Cui", "Appule", "Raspberry", "Pan",
+            "Uub", "Mr. Satan", "Videl", "Android 16", "Dr. Gero", "Babidi",
+            "Dabura", "Garlic Jr.", "Cooler", "Meta-Cooler", "King Cold",
+            "Mecha Frieza", "Golden Frieza", "Super Saiyan Blue", "Ultra Instinct"
+        ]
+    },
+    "Naruto": {
+        "popularity": 0.8,
+        "characters": [
+            "Naruto Uzumaki", "Sasuke Uchiha", "Sakura Haruno", "Kakashi Hatake",
+            "Rock Lee", "Neji Hyuga", "Tenten", "Might Guy", "Hinata Hyuga",
+            "Kiba Inuzuka", "Akamaru", "Shino Aburame", "Ino Yamanaka",
+            "Shikamaru Nara", "Choji Akimichi", "Asuma Sarutobi", "Kurenai Yuhi",
+            "Iruka Umino", "Third Hokage", "Fourth Hokage", "Fifth Hokage",
+            "Sixth Hokage", "Seventh Hokage", "Itachi Uchiha", "Kisame Hoshigaki",
+            "Pain", "Konan", "Tobi", "Madara Uchiha", "Hashirama Senju",
+            "Tobirama Senju", "Orochimaru", "Jiraiya", "Tsunade", "Kabuto Yakushi",
+            "Gaara", "Kankuro", "Temari", "Raikage", "Killer Bee", "Eight-Tails",
+            "Nine-Tails", "Kurama", "Boruto Uzumaki", "Himawari Uzumaki"
+        ]
+    },
+    "My Hero Academia": {
+        "popularity": 0.8,
+        "characters": [
+            "Izuku Midoriya", "Deku", "All Might", "Katsuki Bakugo", "Ochaco Uraraka",
+            "Tenya Iida", "Shoto Todoroki", "Tsuyu Asui", "Momo Yaoyorozu",
+            "Kyoka Jiro", "Denki Kaminari", "Eijiro Kirishima", "Fumikage Tokoyami",
+            "Mashirao Ojiro", "Toru Hagakure", "Mina Ashido", "Yuga Aoyama",
+            "Koji Koda", "Rikido Sato", "Mezo Shoji", "Minoru Mineta", "Eraser Head",
+            "Shota Aizawa", "Present Mic", "Midnight", "Endeavor", "Hawks",
+            "Best Jeanist", "Edgeshot", "Mirko", "Fat Gum", "Tamaki Amajiki",
+            "Mirio Togata", "Nejire Hado", "All For One", "Tomura Shigaraki",
+            "Dabi", "Toga", "Twice", "Mr. Compress", "Spinner", "Muscular",
+            "Overhaul", "Stain", "Nomu", "High-End Nomu", "League of Villains"
+        ]
+    },
+    "One Piece": {
+        "popularity": 0.8,
+        "characters": [
+            "Monkey D. Luffy", "Roronoa Zoro", "Nami", "Usopp", "Sanji",
+            "Tony Tony Chopper", "Nico Robin", "Franky", "Brook", "Jinbe",
+            "Portgas D. Ace", "Sabo", "Monkey D. Garp", "Monkey D. Dragon",
+            "Shanks", "Buggy", "Mihawk", "Crocodile", "Doflamingo", "Katakuri",
+            "Big Mom", "Kaido", "Whitebeard", "Blackbeard", "Admiral Akainu",
+            "Admiral Kizaru", "Admiral Aokiji", "Fleet Admiral Sengoku",
+            "Vice Admiral Smoker", "Captain Tashigi", "Boa Hancock", "Trafalgar Law",
+            "Eustass Kid", "Killer", "X Drake", "Basil Hawkins", "Scratchmen Apoo",
+            "Jewelry Bonney", "Capone Bege", "Urouge", "Going Merry", "Thousand Sunny"
+        ]
+    },
+    "Attack on Titan": {
+        "popularity": 0.8,
+        "characters": [
+            "Eren Yeager", "Mikasa Ackerman", "Armin Arlert", "Levi Ackerman",
+            "Erwin Smith", "Hange Zoe", "Sasha Blouse", "Connie Springer",
+            "Jean Kirstein", "Marco Bott", "Historia Reiss", "Ymir", "Reiner Braun",
+            "Bertolt Hoover", "Annie Leonhart", "Zeke Yeager", "Grisha Yeager",
+            "Carla Yeager", "Keith Shadis", "Dot Pixis", "Rico Brzenska",
+            "Ian Dietrich", "Mitabi Jarnach", "Colossal Titan", "Armored Titan",
+            "Female Titan", "Beast Titan", "Cart Titan", "Jaw Titan", "War Hammer Titan",
+            "Attack Titan", "Founding Titan"
+        ]
+    },
+    "Pokemon": {
+        "popularity": 0.9,
+        "characters": [
+            "Pikachu", "Charizard", "Blastoise", "Venusaur", "Mew", "Mewtwo",
+            "Lucario", "Greninja", "Gardevoir", "Garchomp", "Dialga", "Palkia",
+            "Giratina", "Arceus", "Rayquaza", "Groudon", "Kyogre", "Ho-Oh",
+            "Lugia", "Celebi", "Jirachi", "Deoxys", "Darkrai", "Shaymin",
+            "Victini", "Reshiram", "Zekrom", "Kyurem", "Genesect", "Diancie",
+            "Volcanion", "Magearna", "Marshadow", "Zeraora", "Meltan", "Melmetal",
+            "Zacian", "Zamazenta", "Eternatus", "Zarude", "Regieleki", "Regidrago",
+            "Glastrier", "Spectrier", "Calyrex", "Enamorus", "Koraidon", "Miraidon"
+        ]
+    },
+    "Five Nights at Freddy's": {
+        "popularity": 0.7,
+        "characters": [
+            "Freddy Fazbear", "Bonnie", "Chica", "Foxy", "Golden Freddy",
+            "Springtrap", "Circus Baby", "Ballora", "Funtime Freddy", "Funtime Foxy",
+            "Ennard", "Molten Freddy", "Scrap Baby", "Lefty", "The Puppet",
+            "Mangle", "Toy Freddy", "Toy Bonnie", "Toy Chica", "Balloon Boy",
+            "JJ", "Withered Freddy", "Withered Bonnie", "Withered Chica",
+            "Withered Foxy", "Shadow Freddy", "Shadow Bonnie", "Phantom Freddy",
+            "Phantom Chica", "Phantom Foxy", "Phantom Balloon Boy", "Phantom Puppet",
+            "Phantom Mangle", "Nightmare Freddy", "Nightmare Bonnie", "Nightmare Chica",
+            "Nightmare Foxy", "Nightmare Fredbear", "Nightmare", "Plushtrap",
+            "Bidybab", "Minireena", "Bon-Bon", "Bonnet", "Lolbit", "Yenndo",
+            "Electrobab", "HandUnit", "Glitchtrap", "Vanny", "Glamrock Freddy",
+            "Glamrock Chica", "Montgomery Gator", "Roxanne Wolf", "DJ Music Man",
+            "Sundrop", "Moondrop", "Burntrap", "Blob", "Gregory", "Vanessa"
+        ]
+    },
+    "Sonic the Hedgehog": {
+        "popularity": 0.7,
+        "characters": [
+            "Sonic", "Tails", "Knuckles", "Amy Rose", "Shadow", "Rouge", "Silver",
+            "Blaze", "Cream", "Cheese", "Vector", "Espio", "Charmy", "Big", "Omega",
+            "Dr. Eggman", "Metal Sonic", "Chaos", "Tikal", "Super Sonic", "Hyper Sonic"
+        ]
+    },
+    "Horror": {
+        "popularity": 0.7,
+        "characters": [
+            "Michael Myers", "Jason Voorhees", "Freddy Krueger", "Leatherface",
+            "Ghostface", "Chucky", "Tiffany", "Bride of Chucky", "Pennywise",
+            "Pinhead", "Hellraiser", "Candyman", "The Nun", "Valak", "Annabelle",
+            "The Conjuring", "Insidious", "Saw", "Jigsaw", "Billy", "Carrie",
+            "Jack Torrance", "The Shining", "Regan", "The Exorcist", "Alien",
+            "Xenomorph", "Predator", "Vampire", "Werewolf", "Zombie", "Walking Dead",
+            "Rick Grimes", "Daryl Dixon", "Negan", "Michonne", "Carl Grimes",
+            "Glenn Rhee", "Maggie Greene", "Carol Peletier", "Eugene Porter"
+        ]
+    },
+    "Stranger Things": {
+        "popularity": 0.8,
+        "characters": [
+            "Eleven", "Mike Wheeler", "Dustin Henderson", "Lucas Sinclair",
+            "Will Byers", "Max Mayfield", "Steve Harrington", "Nancy Wheeler",
+            "Jonathan Byers", "Joyce Byers", "Jim Hopper", "Robin Buckley",
+            "Eddie Munson", "Argyle", "Murray Bauman", "Erica Sinclair",
+            "Demogorgon", "Mind Flayer", "Demodogs", "Vecna", "Henry Creel",
+            "One", "Dr. Brenner", "Dr. Owens", "Billy Hargrove", "Bob Newby"
+        ]
+    },
+    "The Office": {
+        "popularity": 0.7,
+        "characters": [
+            "Michael Scott", "Jim Halpert", "Pam Beesly", "Dwight Schrute",
+            "Stanley Hudson", "Kevin Malone", "Meredith Palmer", "Angela Martin",
+            "Oscar Martinez", "Phyllis Vance", "Toby Flenderson", "Creed Bratton",
+            "Kelly Kapoor", "Ryan Howard", "Andy Bernard", "Erin Hannon",
+            "Gabe Lewis", "Robert California", "Todd Packer", "Jan Levinson"
+        ]
+    },
+    "Friends": {
+        "popularity": 0.7,
+        "characters": [
+            "Ross Geller", "Rachel Green", "Monica Geller", "Chandler Bing",
+            "Joey Tribbiani", "Phoebe Buffay", "Gunther", "Janice", "Mike Hannigan",
+            "Emily Waltham", "Carol Willick", "Susan Bunch", "Ben Geller",
+            "Emma Geller-Green", "Ursula Buffay", "Frank Buffay Jr.", "Erica Bing",
+            "Jack Bing", "Richard Burke", "David", "Tag Jones", "Joshua Burgin"
+        ]
+    },
+    "Harry Potter": {
+        "popularity": 0.9,
+        "characters": [
+            "Harry Potter", "Hermione Granger", "Ron Weasley", "Albus Dumbledore",
+            "Severus Snape", "Rubeus Hagrid", "Lord Voldemort", "Tom Riddle",
+            "Draco Malfoy", "Neville Longbottom", "Luna Lovegood", "Ginny Weasley",
+            "Sirius Black", "Remus Lupin", "Minerva McGonagall", "Dolores Umbridge",
+            "Bellatrix Lestrange", "Lucius Malfoy", "Narcissa Malfoy", "Dobby",
+            "Kreacher", "Hedwig", "Buckbeak", "Fawkes", "Nagini", "Basilisk",
+            "Dementor", "Boggart", "Hippogriff", "Thestral", "Hungarian Horntail",
+            "Newt Scamander", "Tina Goldstein", "Jacob Kowalski", "Queenie Goldstein",
+            "Credence Barebone", "Gellert Grindelwald", "Albus Dumbledore",
+            "Theseus Scamander", "Leta Lestrange", "Yusuf Kama", "Nagini"
+        ]
+    },
+    "Lord of the Rings": {
+        "popularity": 0.8,
+        "characters": [
+            "Frodo Baggins", "Samwise Gamgee", "Meriadoc Brandybuck", "Peregrin Took",
+            "Gandalf", "Aragorn", "Legolas", "Gimli", "Boromir", "Faramir",
+            "Sauron", "Saruman", "Gollum", "Smeagol", "Arwen", "Elrond", "Galadriel",
+            "Bilbo Baggins", "Thorin Oakenshield", "Balin", "Dwalin", "Fili", "Kili",
+            "Oin", "Gloin", "Dori", "Nori", "Ori", "Bifur", "Bofur", "Bombur",
+            "Smaug", "Bard", "Thranduil", "Azog", "Bolg", "Radagast", "Tauriel",
+            "Nazgul", "Ringwraith", "Witch-King", "Mouth of Sauron", "Gothmog",
+            "Lurtz", "Uruk-hai", "Orc", "Goblin", "Troll", "Cave Troll", "Balrog"
+        ]
+    },
+    "Jurassic Park": {
+        "popularity": 0.7,
+        "characters": [
+            "T-Rex", "Velociraptor", "Triceratops", "Brachiosaurus", "Dilophosaurus",
+            "Spinosaurus", "Carnotaurus", "Allosaurus", "Stegosaurus", "Parasaurolophus",
+            "Gallimimus", "Compsognathus", "Pteranodon", "Mosasaurus", "Indominus Rex",
+            "Indoraptor", "Blue", "Charlie", "Delta", "Echo", "Rexy", "Big One",
+            "Alan Grant", "Ellie Sattler", "Ian Malcolm", "John Hammond", "Robert Muldoon",
+            "Gennaro", "Tim Murphy", "Lex Murphy", "Dennis Nedry", "Ray Arnold",
+            "Owen Grady", "Claire Dearing", "Maisie Lockwood", "Franklin Webb"
+        ]
+    },
+    "Music": {
+        "popularity": 0.6,
+        "characters": [
+            "Elvis Presley", "Michael Jackson", "Madonna", "Prince", "David Bowie",
+            "Freddie Mercury", "Queen", "The Beatles", "John Lennon", "Paul McCartney",
+            "George Harrison", "Ringo Starr", "Kiss", "AC/DC", "Metallica",
+            "Iron Maiden", "Black Sabbath", "Ozzy Osbourne", "Guns N' Roses",
+            "Nirvana", "Kurt Cobain", "Pearl Jam", "Soundgarden", "Alice in Chains",
+            "Red Hot Chili Peppers", "Green Day", "Blink-182", "The Ramones",
+            "Sex Pistols", "The Clash", "U2", "Radiohead", "Coldplay", "Muse",
+            "Foo Fighters", "Linkin Park", "My Chemical Romance", "Fall Out Boy",
+            "Panic! At The Disco", "Twenty One Pilots", "Imagine Dragons",
+            "Maroon 5", "OneRepublic", "The Killers", "Arctic Monkeys", "Oasis",
+            "Blur", "Gorillaz", "Daft Punk", "Deadmau5", "Skrillex", "Avicii"
+        ]
+    },
+    "NBA": {
+        "popularity": 0.6,
+        "characters": [
+            "Michael Jordan", "LeBron James", "Kobe Bryant", "Magic Johnson",
+            "Larry Bird", "Kareem Abdul-Jabbar", "Wilt Chamberlain", "Bill Russell",
+            "Shaquille O'Neal", "Tim Duncan", "Dirk Nowitzki", "Kevin Durant",
+            "Stephen Curry", "Russell Westbrook", "James Harden", "Kawhi Leonard",
+            "Anthony Davis", "Giannis Antetokounmpo", "Luka Doncic", "Zion Williamson"
+        ]
+    },
+    "NFL": {
+        "popularity": 0.6,
+        "characters": [
+            "Tom Brady", "Peyton Manning", "Aaron Rodgers", "Drew Brees", "Brett Favre",
+            "Joe Montana", "Johnny Unitas", "Dan Marino", "John Elway", "Ben Roethlisberger"
+        ]
+    },
+    "Ad Icons": {
+        "popularity": 0.5,
+        "characters": [
+            "Ronald McDonald", "Pillsbury Doughboy", "Cap'n Crunch", "Tony the Tiger",
+            "Chester Cheetah", "Toucan Sam", "Lucky", "Trix Rabbit", "Energizer Bunny",
+            "Mr. Peanut", "Kool-Aid Man", "Count Chocula", "Franken Berry", "Boo Berry"
+        ]
+    },
+    "Sanrio": {
+        "popularity": 0.6,
+        "characters": [
+            "Hello Kitty", "My Melody", "Kuromi", "Cinnamoroll", "Pompompurin",
+            "Badtz-Maru", "Keroppi", "Tuxedosam", "Little Twin Stars", "Rururugakuen"
+        ]
+    }
 }
